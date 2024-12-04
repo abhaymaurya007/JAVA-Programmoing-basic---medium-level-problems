@@ -14,10 +14,11 @@
 public class prob9 {
     public static void main(String[] args) {
         float purchasingprice=3500;
+
         float profitonTV=((purchasingprice*27f)/100);
         float vatOnTV=((purchasingprice*12.7f)/100);
         float serviceontv=((purchasingprice+profitonTV)*3.87f)/100;
         float selliingprice=purchasingprice+profitonTV+vatOnTV+serviceontv;
-        System.out.printf("selling price of tv %f",selliingprice);
+        System.out.printf("selling price of tv %.2f",selliingprice);
     }
 }
